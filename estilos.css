@@ -1,0 +1,200 @@
+header {
+    font-family: 'Baskervville', serif;
+    color: black;
+    padding-left: 50px;
+    padding-top: 60px;
+    font-size: 20px;
+    display: inline;
+
+
+}
+
+.doi {
+    font-family: 'Krona One', sans-serif;
+    padding-left: 0px;
+    padding-top: -10px;
+    font-size: 20px;
+}
+
+
+body {
+    font-family: 'Baskervville', serif;
+    background-color: rgb(255, 244, 223);
+    max-width: 750px;
+    background-image: url(gradiente.png);
+    background-size: 1808px, 576px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 250px;
+
+    font-size: 120px;
+
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 20px;
+
+}
+
+h3 {
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+
+blockquote {
+    font-family: 'Baskervville', serif;
+    text-align: left;
+    color: black;
+    padding-left: 220px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-top: -20px;
+
+}
+
+
+
+ul.a {
+    list-style-type: circle;
+    margin: 0;
+    padding: 40;
+    padding-left: 20px;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+table {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 20px;
+}
+
+
+p {
+    font-family: 'Baskervville', serif;
+    padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    ;
+}
+
+
+
+li a {
+    font-family: 'Baskervville', serif;
+    color: black;
+    display: block;
+    width: 1500px;
+    padding-left: 550px;
+    font-size: 50px;
+
+
+}
+
+
+.pessoal {
+    list-style-type: circle;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.fotomodelo {
+
+    max-width: 200px;
+    margin: 0;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    margin-top: -250px
+}
+
+.titulo {
+    font-family: 'Raleway',
+        sans-serif;
+    color: blue;
+}
+
+.negrito {
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    margin-top: -150px;
+    margin-left: 100px;
+    word-spacing: 10px;
+
+}
+
+img {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    font-size: 10px;
+}
+
+
+.retrato2 { margin-top: -100px;
+margin-right: 150px; 
+margin-left: 100px;
+position: absolute;
+z-index: -1;}
+
+.hello2 {
+    text-align: right;
+    margin-top: -270px;
+    margin-left: 400px;
+    font-size: 20px;
+
+}
+
+.contactos {
+    margin-top: -180px;
+    margin-left: 70px;
+    
+}
+
+.datas {margin-left: 50px;
+margin-top: 50px;
+font-size:25px;}
+
+.datas1 {margin-left:70px; 
+font-size: 20px;}
+
+.datas2 {margin-top: -170px;
+margin-left: 445px;
+font-size:25px;}
+
+.datas3 {
+margin-left: 465px;
+
+font-size: 20px;}
