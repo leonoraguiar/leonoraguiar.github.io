@@ -20,7 +20,7 @@ header {
 body {
     font-family: 'Baskervville', serif;
     background-color: rgb(255, 244, 223);
-    max-width: 750px;
+    max-width: 800px;
     background-image: url(gradiente.png);
     background-size: 1808px, 576px;
     background-repeat: no-repeat;
@@ -43,16 +43,15 @@ h1 {
 h2 {
     font-family: 'Krona One', sans-serif;
     color: black;
-    font-weight: bold;
     margin-left: 115px;
     margin-top: 20px;
 
 }
 
 h3 {
-    font-family: 'Krona One', sans-serif;
-    color: black;
-    padding-left: 70px;
+
+
+    padding-left: 100px;
     font-weight: bold;
 }
 
@@ -73,21 +72,10 @@ blockquote {
 ul.a {
     list-style-type: circle;
     margin: 0;
-    padding: 40;
+
     padding-left: 20px;
 }
 
-li {
-    font-family: 'Raleway', sans-serif;
-
-}
-
-
-
-table {
-    font-family: 'Raleway', sans-serif;
-    padding-left: 20px;
-}
 
 
 p {
@@ -99,7 +87,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    width: 100px;
     ;
 }
 
@@ -108,7 +96,7 @@ ul {
 li a {
     font-family: 'Baskervville', serif;
     color: black;
-    display: block;
+    display: inline-block;
     width: 1500px;
     padding-left: 550px;
     font-size: 50px;
@@ -118,8 +106,13 @@ li a {
 
 
 .pessoal {
+    font-family: 'Krona One', sans-serif;
+    display: inline-block;
     list-style-type: circle;
-    margin: 0;
+    margin-left: 150px;
+    font-size: 20px;
+    border-spacing: 10px;
+
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -163,38 +156,380 @@ img {
 }
 
 
-.retrato2 { margin-top: -100px;
-margin-right: 150px; 
-margin-left: 100px;
-position: absolute;
-z-index: -1;}
+.retrato2 {
+    margin-top: -107px;
+    margin-right: 150px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: -2;
+}
 
 .hello2 {
     text-align: right;
     margin-top: -270px;
     margin-left: 400px;
     font-size: 20px;
+    width: 375px;
 
 }
 
 .contactos {
     margin-top: -180px;
     margin-left: 70px;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.datas {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.datas1 {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.datas2 {
+    margin-top: -170px;
+    margin-left: 445px;
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.datas3 {
+    margin-left: 495px;
+    font-size: 20px;
+}
+
+.interessespessoais {
+    margin-top: -455px;
+    margin-left: 200px;
+}
+
+.interesses {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.profissional {
+    font-family: 'Baskervville', serif;
+    font-size: 30px;
+    margin-left: 48px;
+}
+
+.pessoal {
+    width: 400px;
+}
+
+.pessoais {
+
+    margin-left: 500px;
+    font-size: 30px;
+    margin-top: -100px;
+    font-family: 'Baskervville', serif;
+}
+
+.pessoal2 {
+    text-align: left;
+    font-family: 'Krona One', sans-serif;
+    display: inline-block;
+    list-style-type: circle;
+    margin-left: 565px;
+    font-size: 20px;
+    width: 400px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.skills {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    margin-top: -300px;
+    margin-left: 20px;
+
+}
+
+.software {
+    margin-left: -330px;
+    margin-top: -210px;
+}
+
+.atwititulo {
+    font-size: 45px;
+    margin-left: 350px;
+    margin-top: -15px;
+    color: blue;
+    z-index: -1;
+    font-family: 'Krona One', sans-serif;
+}
+
+.atwip {
+    width: 250px;
+    text-align: right;
+    margin-left: 250px;
+    margin-top: 90px;
+
+}
+
+.atwiimage {
+    margin-left: 500px;
+    margin-top: -400px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.area {
+    margin-top: -250px;
+    margin-left: 30px;
+    width: 1000px;
+    font-size: 15px;
+}
+
+.illattitulo {
+    font-size: 45px;
+    color: blue;
+    z-index: -1;
+    font-family: 'Krona One', sans-serif;
+}
+
+.illatimage {
+    margin-left: 120px;
+    margin-top: -90px;
+    position: absolute;
+    z-index: -1;
+}
+
+.illattitulo {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.illatp {
+    width: 265px;
+    margin-left: 510px;
+    margin-top: -20px;
+}
+
+.nossotitulo {
+    font-size: 45px;
+    width: 500px;
+    margin-left: 300px;
+    color: blue;
+    font-family: 'Krona One', sans-serif;
+}
+
+.nossoimage {
+    margin-left: 350px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.nossop {
+    width: 250px;
+    text-align: right;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.um {
+    margin-left: -75px;
+}
+
+.dois {
+    margin-left: -75px;
+    margin-top: 100px;
+}
+
+.ghbtitulo {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 90px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.ghbimage {
+    margin-left: 130px;
+    margin-top: -90px;
+    position: absolute;
+    z-index: -1;
+}
+
+.ghbp {
+    width: 265px;
+    margin-left: 560px;
+    margin-top: -5px;
+}
+
+.stojot {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 350px;
+    margin-top: 150px;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.stojop {
+    width: 260px;
+    text-align: right;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+
+.stojoi {
+    margin-left: 350px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.kamut {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 90px;
+    margin-top: 150px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.kamui {
+    margin-left: 130px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.kamup {
+    width: 265px;
+    margin-left: 620px;
+    margin-top: -40px;
+}
+
+.tres {
+    margin-left: -75px;
+    margin-top: 100px;
+}
+
+.wast {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 350px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.quatro {
+    margin-left: -75px;
+    margin-top: 190px;
+
+}
+
+.wasi {
+    margin-left: 130px;
+    margin-top: -80px;
+    position: absolute;
+    z-index: -1;
+}
+
+.wasp {
+    width: 265px;
+    margin-left: 630px;
+    margin-top: -5px;
+}
+
+.wavest {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 60px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.wavesi {
+    margin-left: 200px;
+    margin-top: -80px;
+    position: absolute;
+    z-index: -1;
+}
+
+.wavesp {
+    width: 265px;
+    margin-left: 650px;
+    margin-top: 260px;
+}
+
+
+.packt {
+    font-size: 45px;
+    color: blue;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: -50px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.packi {
+    margin-left: 480px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.packp {
+    width: 300px;
+    text-align: right;
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+footer {
+    font-family:  'Krona One', sans-serif;
+    text-align: center;
+    width: 1000px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     
 }
 
-.datas {margin-left: 50px;
-margin-top: 50px;
-font-size:25px;}
+.arco {position: absolute;
+    z-index: -1;
+margin-left: 100px;
+margin-top: 80px;}
 
-.datas1 {margin-left:70px; 
-font-size: 20px;}
+.arco1 {position: absolute;
+    z-index: -1;
+margin-left: 100px;
+margin-top: 150px;}
 
-.datas2 {margin-top: -170px;
-margin-left: 445px;
-font-size:25px;}
+.phone {position: absolute;
+    z-index: -1;
+margin-left: 280px;
+margin-top: 250px}
 
-.datas3 {
-margin-left: 465px;
+.estrelas {position: absolute;
+    z-index: -1;
+margin-left: 335px;
+margin-top: -50px;}
 
-font-size: 20px;}
+.onda {position: absolute;
+   margin-top: -80px;
+margin-left: 20px;}
+
+.estrelas1 {position: absolute;
+    z-index: -1;
+    margin-left: 150px;
+    margin-top: -120px;
+}
