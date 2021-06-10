@@ -438,15 +438,14 @@ img {
 
 .wasi {
     margin-left: 130px;
-    margin-top: -80px;
-    position: absolute;
-    z-index: -1;
+    margin-top: -10px;
+    
 }
 
 .wasp {
     width: 265px;
     margin-left: 630px;
-    margin-top: -5px;
+    margin-top: -200px;
 }
 
 .wavest {
