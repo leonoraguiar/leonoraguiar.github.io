@@ -1,16 +1,18 @@
-var today = new Date(21);
-var hourNow = today.getHours(20:00);
-var greeting;
+let date = new Date();
+let hours = date.getHours();
 
-if (hourNow < 12){
-  greeting = "Good Morning";
-}
-else if (hourNow < 20){
-  greeting = 'Good afternoon!';
-}
-else if (hourNow < 24){
-  greeting = "Good evening"
-}
-else {
-  greeting = "Welcome";
+greeting = document.getElementById('greetings');
+
+console.log(greeting);
+
+console.log(hours);
+
+if (hours < 12){
+  greeting.textContent = "good morning";
+} else if (hours < 20){
+  greeting.textContent = 'good afternoon';
+} else if (hours < 24){
+  greeting.textContent = "good evening"
+} else {
+  greeting.textContent = "hello";
 }
